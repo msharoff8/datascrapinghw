@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>Mission to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Life on Mars</a></p>
+    </div>
+
+    <div class="latestnews">
+        <h2>Latest Mars News</h2>
+      <div class="col-md-12">
+        <h4 class="heading">{{mars.headline}}</h4>
+        <small>{{mars.text}}</small>
+      </div>
+    </div>
+
+    <div class="marsweather">
+      <div class="col-md-12">
+        <h4 class="heading">Mars Weather</h4>
+        <small>{{mars.weather}}</small>
+      </div>
+    </div>
+
+    <div class="marstable">
+        <h4 class="heading">{{mars.table}}</h4>
+        <td>{{mars.weather}}</td>
+      </div>
+    </div>
+
+    <div class="featuredimageheadline">
+        <h2>Featured Mars Image</h2>
+    </div>
+    
+    <div class="featuredimage">
+        <img src="C:\Users\marks\OneDrive\Documents\templates\PIA01384_ip.jpg" alt="Featured Image"> </img>
+    </div>
+
+    <div class="picgrid"> 
+        <img class='cerberus' src="C:\Users\marks\OneDrive\Documents\templates\cerberus.jpg" alt="Cerberus"> </img>> 
+        <img class='schiaparelli' src="C:\Users\marks\OneDrive\Documents\templates\schiaparelli.jpg" alt="Cerberus"> </img>> 
+        <img class='syrtis' src="C:\Users\marks\OneDrive\Documents\templates\syrtis.jpg" alt="Cerberus"> </img>> 
+        <img class='valles' src="C:\Users\marks\OneDrive\Documents\templates\valles.jpg" alt="Cerberus"> </img>> 
+    </div>
+      
+
+</body>
+
+</html>
+
+
